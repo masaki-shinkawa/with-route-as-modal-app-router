@@ -1,5 +1,5 @@
 # 概要
-Parallel RoutingとIntercepting Routesを用いたModalにURLを定義する方法のサンプル実装
+Parallel RoutingとIntercepting Routesを用いたModalにURLを定義する方法のサンプル実装  
 一覧から画面遷移をしようとするとModalが開かれるが、ModalのURLに直接遷移すると詳細画面が開かれる
 
 ## Getting Started
