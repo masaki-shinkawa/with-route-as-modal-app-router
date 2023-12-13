@@ -1,7 +1,11 @@
-const EmployeeContent = async () => {
+'use client'
+import { useParams } from "next/navigation";
+
+const EmployeeContent = () => {
+  const { id } = useParams()
   return (
     <article>
-      <div>EmployeeContent</div>
+      <div>EmployeeContent ID: {id}</div>
     </article>
   );
 };
